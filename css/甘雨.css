@@ -1,0 +1,40 @@
+        body{
+            display: flex;
+            background: url('../images/甘雨.png') no-repeat center fixed;
+            background-size: cover;
+            justify-content: center;
+        }
+        .search-input{
+            flex-grow: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            background-image:url('../images/甘雨q版想清心.jpg');
+            background-size: 100px 50px ;
+            background-position: 150px center;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+        }
+        .search-button{
+            padding: 5px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: rgb(175, 220, 239);
+            opacity: 0.8;
+        }
+        .search-bar{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .search-button:hover{
+            background-color: rgb(145, 237, 237);
+        }
+        img{
+            width: 300px;
+            height: 300px;
+        }
